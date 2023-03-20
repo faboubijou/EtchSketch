@@ -1,0 +1,10 @@
+.container {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.addChild {
+    width: 100px;
+    height: 100px;
+}
