@@ -1,10 +1,19 @@
 .container {
     border: 1px solid;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    height: 960px;
+    width: 960px;
+    flex-direction: column;
 }
 
-.addChild {
-    width: 100px;
-    height: 100px;
+.childAdd {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.subChildAdd {
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
 }
